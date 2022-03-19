@@ -12,6 +12,7 @@ The minimum requirements are a deliverable.
 2. Export each component from its module. 
 3. Define the following components as functions and code them such that they fulfill their responsibilities:
 With the minimum requirements complete, the output should resemble:
+![minumum requirement](mockup.JPG)
 
 * Hints
 If a component accepts a prop, that prop must be passed to it by the component that renders it, in other words, parent components pass props to their children components.
