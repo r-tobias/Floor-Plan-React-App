@@ -6,13 +6,23 @@ import LivingRoom from "./LivingRoom";
 function FloorPlan () {
     return (
     <div className="FloorPlan">
-        <Kitchen/>
-        <LivingRoom/>
+        <div className="first-div">
         <Bedroom bedNum={1}/>
+        <Bath size = {"Full"}/>
+        </div>
+        <div className="second-div">
+        <LivingRoom/>
+        <Kitchen/>
+        </div>
+        <div className="third-div">
         <Bedroom bedNum={2}/>
+        <Bath size = {"Half"}/>
         <Bedroom bedNum={3}/>
-        <Bath size = {"Full"}/>
-        <Bath size = {"Full"}/>
+
+        </div>
+        
+        
+        
 
 
     </div>

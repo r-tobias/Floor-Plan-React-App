@@ -1,30 +1,92 @@
 .App {
   text-align: center;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.FloorPlan  {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.first-div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  
 
+}
+.second-div {
+  display: flex;
+  flex-direction: row;
+  
+}
+.third-div {
+  display: flex;
+  flex-direction: row;
+  
+}
 .Bedroom {
   background: #2b7188;
+  height: 40vh;
+  width: 40vh;
+  display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
 
 .Bath {
   background: #728831;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#Full-bath {
+  height: 20vh;
+  width: 40vh;
+}
+#Half-bath {
+  height: 40vh;
+  width: 25vh;
 }
 .LivingRoom {
   background: #c9ac82;
+  height: 60vh;
+  width: 40vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .Kitchen {
   background: #f1a73b;
+  width: 25vh;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.Kitchen-1 {
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+  justify-content: center;
+   align-items: center;
+}
+.Kitchen-2 {
+  height: 52vh;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+}
+
+#Oven {
+  background: #c94716;
+  width: 50%;
+
+}
+#Sink {
+  background: #935613;
+  width: 50%;
 }
 
 
