@@ -8,9 +8,9 @@ function FloorPlan () {
     <div className="FloorPlan">
         <Kitchen/>
         <LivingRoom/>
-        <Bedroom/>
-        <Bedroom/>
-        <Bedroom/>
+        <Bedroom bedNum={1}/>
+        <Bedroom bedNum={2}/>
+        <Bedroom bedNum={3}/>
         <Bath size = {"Full"}/>
         <Bath size = {"Full"}/>
 
