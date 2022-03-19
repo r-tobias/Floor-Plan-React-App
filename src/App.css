@@ -13,10 +13,18 @@
   color: white;
 }
 
-.Bath {
-  background-color: blue;
+.Bedroom {
+  background: #2b7188;
 }
 
-.Kitchen {
-  background-color: red;
+.Bath {
+  background: #728831;
 }
+.LivingRoom {
+  background: #c9ac82;
+}
+.Kitchen {
+  background: #f1a73b;
+}
+
+
