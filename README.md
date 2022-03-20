@@ -11,16 +11,20 @@ The minimum requirements are a deliverable.
 1. Define each component in its own file. The naming convention to use for a component's file is UpperCamelCase also known as Pascal Case, for example, a <CodeSandbox> component's file would be named CodeSandbox.js (CodeSandbox.jsx also works).
 2. Export each component from its module. 
 3. Define the following components as functions and code them such that they fulfill their responsibilities:
+![components](https://user-images.githubusercontent.com/49138373/159142514-0b9622a7-5590-4784-ab43-a9c438d041b6.JPG)
+   
 With the minimum requirements complete, the output should resemble:
-![minumum requirement](images/mockup.JPG)
+![mockup](https://user-images.githubusercontent.com/49138373/159142488-43215080-36c4-4e41-b1dd-37ec6ae3872c.JPG)
+
 
 * Hints
 If a component accepts a prop, that prop must be passed to it by the component that renders it, in other words, parent components pass props to their children components.
 ## Bonus
 Style the components to make the output look like a floor plan:
+    ![bonusMockup](https://user-images.githubusercontent.com/49138373/159142479-4c4196c4-ede9-45cd-b995-d1d5a29ded82.JPG)
 * Hints
     * Use className and/or id on React Elements (div, p, span, etc.) to apply CSS styling using CSS rules in the styles.css module.
-    * Styling the <FloorPlan> component as a CSS Grid is a great way to layout its children (grid items).
+ * Styling the <FloorPlan> component as a CSS Grid is a great way to layout its children (grid items).
     * Use props being passed in to generate a unique id on an element that can be used to target that element for custom styling. For example:
      div className='bedroom' id={`bed-${props.bedNum}`}>
     Would result in this Bedroom> having a wrapping div> like:
